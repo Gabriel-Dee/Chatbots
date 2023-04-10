@@ -29,34 +29,3 @@
 ### Lemmatization -  refers to returning the base word.
 
 ### Generating Bag Of Words (BOW):- Process of converting words into numbers by generating vector embeddings from the tokens generated.
-
-##           +------------------+
-##           |  User message    |
-##           +--------+---------+
-##                    |   
-##         +------------+-------------+
-##         |                          |
-## +-------v---------+        +---------v--------+
-## |Intent           |        | Entity           |
-## |Classification   |        |Resolution        |
-## +-----------------+        +------------------+
-## | Intents         |        | Entities         |
-## +-----------------+        +------------------+
-##         |                         |
-##         +------------+------------+
-##                      |
-##              +-------v-------+
-##              | AI Brain      |
-##              +-------+-------+
-##                      |
-##              +-------v-------+
-##              | Response      |
-##              | Selection     |
-##              +-------+-------+
-##                      |
-##              +-------v-------+
-##              | Response with |
-##              | Highest       |
-##              | Similarity    |
-##              +---------------+
-
